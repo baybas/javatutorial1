@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class task01 {
+public class task02 {
 
     public static void main(String[] args) {
 
@@ -15,10 +15,9 @@ public class task01 {
         System.out.print("Enter C: ");
         double c = myInput.nextDouble();
 
-        double z = ((a - (double) 3) * b / 2) + c;
+        double z = (b + Math.sqrt(Math.pow(b,2) + 4*a*c))/(2*a) - Math.pow(a,3)*c + Math.pow(b,-2) ;
 
         System.out.print("z = ((a-3)*b/2)+c = " + z);
 
     }
-
 }
